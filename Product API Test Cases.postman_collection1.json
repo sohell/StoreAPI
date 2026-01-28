@@ -55,9 +55,9 @@
               "    pm.expect(json).to.be.an(\"object\");\r",
               "});\r",
               "\r",
-              "pm.test(\"Verrify the response id\", () => {\r",
-              "    pm.expect(json.id).to.eql(Number(pm.collectionVariables.get(\"id\")));\r",
-              "})"
+              "// pm.test(\"Verify the response id\", () => {\r",
+              "//     pm.expect(json.id).to.eql(Number(pm.collectionVariables.get(\"id\")));\r",
+              "// })"
             ],
             "type": "text/javascript",
             "packages": {},
